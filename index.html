@@ -8,41 +8,43 @@
     <link rel="stylesheet" href="all.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">\
-
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
 
 <body>
-    <div class="header-wrap">
-        <a href="#" class="header-wrap-logo"><img src="img/logo.svg" alt="logo"></a>
-        <div class="nav-bar"><img src="img/menu.png" alt="menu"></div>
-        <ul class="nav">
+    <div class="header">
+        <div class="header-warp">
+          <a href="#"><img src="img/logo.svg" alt="logo" class="header-logo"></a>
+          <input type="checkbox" name="" id="menu-control" class="menu-control">
+          <label for="menu-control" class="menu-btn">
+            <span class="open">
+              <img src="img/menu.png" alt="menu">
+            </span><span class="close">
+              <img src="img/close.png" alt="close">
+            </span></label>
+          <ul class="nav">
             <li class="nav-items"><a href="#"><span class="border_corner border-corner-top-left"></span>
-                    <span class="border_corner border-corner-top-right"></span>
-                    <span class="border_corner border-corner-bottom-left"></span>
-                    <span class="border_corner border-corner-bottom-right"></span>首頁</a></li>
+                <span class="border_corner border-corner-top-right"></span>
+                <span class="border_corner border-corner-bottom-left"></span>
+                <span class="border_corner border-corner-bottom-right"></span>首頁</a></li>
             <li class="nav-items"><a href="#"><span class="border_corner border-corner-top-left"></span>
-                    <span class="border_corner border-corner-top-right"></span>
-                    <span class="border_corner border-corner-bottom-left"></span>
-                    <span class="border_corner border-corner-bottom-right"></span>作品集</a>
-            </li>
+                <span class="border_corner border-corner-top-right"></span>
+                <span class="border_corner border-corner-bottom-left"></span>
+                <span class="border_corner border-corner-bottom-right"></span>作品集</a></li>
             <li class="nav-items"><a href="#"><span class="border_corner border-corner-top-left"></span>
-                    <span class="border_corner border-corner-top-right"></span>
-                    <span class="border_corner border-corner-bottom-left"></span>
-                    <span class="border_corner border-corner-bottom-right"></span>服務項目</a>
-            </li>
+                <span class="border_corner border-corner-top-right"></span>
+                <span class="border_corner border-corner-bottom-left"></span>
+                <span class="border_corner border-corner-bottom-right"></span>服務項目</a></li>
             <li class="nav-items"><a href="#"><span class="border_corner border-corner-top-left"></span>
-                    <span class="border_corner border-corner-top-right"></span>
-                    <span class="border_corner border-corner-bottom-left"></span>
-                    <span class="border_corner border-corner-bottom-right"></span>部落格</a>
-            </li>
+                <span class="border_corner border-corner-top-right"></span>
+                <span class="border_corner border-corner-bottom-left"></span>
+                <span class="border_corner border-corner-bottom-right"></span>部落格</a></li>
             <li class="nav-items"><a href="#"><span class="border_corner border-corner-top-left"></span>
-                    <span class="border_corner border-corner-top-right"></span>
-                    <span class="border_corner border-corner-bottom-left"></span>
-                    <span class="border_corner border-corner-bottom-right"></span>聯絡我</a>
-            </li>
-        </ul>
-    </div>
+                <span class="border_corner border-corner-top-right"></span>
+                <span class="border_corner border-corner-bottom-left"></span>
+                <span class="border_corner border-corner-bottom-right"></span>聯絡我</a></li>
+          </ul>
+        </div>
+      </div>
     <div class="intro-container">
         <div class="title">
             <img class="title-up" src="img/quote-left.png" alt="上引冒號">
@@ -69,7 +71,7 @@
         <div class="container">
             <ul class="content">
                 <li class="content-card">
-                    <img class="content-card-img" src="img/work-image1.png" alt="星際旅行訂票平台">
+                    <div class="img-box"><img class="content-card-img" src="img/work-image1.png" alt="星際旅行訂票平台"></div>
                     <div class="content-word">
                         <h2 class="content-word-title">星際旅行訂票平台</h2>
                         <p class="content-word-p">悠遊宇宙的夢想，從這裡開始實現</p>
@@ -81,7 +83,7 @@
                     </ul>
                 </li>
                 <li class="content-card">
-                    <img class="content-card-img" src="img/work-image2.png" alt="理財App">
+                    <div class="img-box"><img class="content-card-img" src="img/work-image2.png" alt="理財App"></div>
                     <div class="content-word">
                         <h2 class="content-word-title">理財App</h2>
                         <p class="content-word-p">連動帳戶與行動支付，讓 AI 提供您最好的理財建議</p>
@@ -93,7 +95,7 @@
                     </ul>
                 </li>
                 <li class="content-card">
-                    <img class="content-card-img" src="img/work-image3.png" alt="醫美診所官網">
+                    <div class="img-box"><img class="content-card-img" src="img/work-image3.png" alt="醫美診所官網"></div>
                     <div class="content-word">
                         <h2 class="content-word-title">醫美診所官網</h2>
                         <p class="content-word-p">永保青春的秘密，從粹究開始</p>
@@ -105,7 +107,7 @@
                     </ul>
                 </li>
                 <li class="content-card">
-                    <img class="content-card-img" src="img/work-image4.png" alt="美美美早餐店 POS 機 UI Design">
+                    <div class="img-box"><img class="content-card-img" src="img/work-image4.png" alt="美美美早餐店 POS 機 UI Design"></div>
                     <div class="content-word">
                         <h2 class="content-word-title">美美美早餐店 POS 機 UI Design</h2>
                         <p class="content-word-p">訂單送單一目瞭然，自動報表分析好輕鬆</p>
@@ -117,7 +119,7 @@
                     </ul>
                 </li>
                 <li class="content-card">
-                    <img class="content-card-img" src="img/work-image5.png" alt="電影院訂票系統">
+                    <div class="img-box"><img class="content-card-img" src="img/work-image5.png" alt="電影院訂票系統"></div>
                     <div class="content-word">
                         <h2 class="content-word-title">電影院訂票系統</h2>
                         <p class="content-word-p">三步驟完成訂票，電腦手機都支援</p>
@@ -129,7 +131,7 @@
                     </ul>
                 </li>
                 <li class="content-card">
-                    <img class="content-card-img" src="img/work-image6.png" alt="巧克巧克形象官網設計">
+                    <div class="img-box"><img class="content-card-img" src="img/work-image6.png" alt="巧克巧克形象官網設計"></div>
                     <div class="content-word">
                         <h2 class="content-word-title">巧克巧克形象官網設計</h2>
                         <p class="content-word-p">三步驟完成訂票，電腦手機都支援</p>
